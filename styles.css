@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(233, 255, 224);  /* Set background color to light green */
+    margin: 1;
+}
+
+
+p {
+    color: rgb(3, 100, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+} 
+
+h1 {
+    font-family: "Paytone One", serif;
+    font-size:50px;
+    font-weight: lighter;
+    color: deeppink; /* Set text color to deep pink */}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;}
+
+h3,ul,nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 2rem;
+}
+
+h3#AboutMe {
+    margin: 0;
+}
+
+ul {
+    color: rgb(1, 94, 1);
+    margin: 0;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+#intro {
+    border: 1px solid rgb(1, 94, 1);
+    padding: 10px;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+a {
+    color: hotpink; 
+}
+
+ th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: left;}
+
+tr:hover {
+    background-color: rgb(255, 186, 160);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+ body {
+    background-color: rgb(231, 246, 251);}
+}
